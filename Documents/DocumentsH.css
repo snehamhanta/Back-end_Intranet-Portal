@@ -1,0 +1,81 @@
+/* background-color: #f1f1f1; */
+
+.text-documentsHome{
+    /* margin-left: 220px; */
+    margin-top: 10px;
+    color: #091351;
+    font-weight:600;
+    font-size: large;
+    /* padding-bottom: 0; */
+    /* margin-bottom:10px ; */
+    text-align: left;
+    /* text-decoration-line: underline; */
+    /* text-decoration-thickness: 3px; */
+    /* text-decoration-color: rgb(233, 25, 133); */
+    
+}
+.Documents{
+    height: 400px;
+    width: 345px;
+    background-color: white;
+    border-radius: 5px;
+    /* margin-left: 200px; */
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.motivation-p{
+    /* margin-left: 100px; */
+    font-size: small;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+.scroll-container {
+    overflow: auto;
+    /* Set a fixed height or width to limit the size of the scrollable area */
+    /* height: 320px; Adjust the height as needed */
+    height: 400px;
+}
+.scroll-container::-webkit-scrollbar {
+    width: 10px;
+    /* height: 200px; */
+}
+
+.scroll-container::-webkit-scrollbar-track {
+    background: #ffffff;
+    
+
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background:rgb(233, 25, 133);
+    /* height: 200px; */
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+    background: rgb(233, 25, 133);
+    /* height: 200px; */
+}
+
+
+@media screen and (max-width: 960px){
+    .text-documentsHome{
+        margin-left: 240px;
+        margin-top: 30px;
+        color: #091351;
+        font-weight:600;
+        font-size: large;
+        padding-bottom: 0;
+        text-decoration-line: underline;
+        text-decoration-thickness: 3px;
+        text-decoration-color: rgb(233, 25, 133);
+    }
+    .Documents{
+        height: 200px;
+        width: 400px;
+        background-color: white;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+   
+}
